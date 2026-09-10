@@ -29,3 +29,6 @@ while read line
 do
     echo "读取到的行: $line"
 done < inputfile.txt
+
+# 打开新的 bash 终端
+gnome-terminal
