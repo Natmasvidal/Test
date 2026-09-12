@@ -1,6 +1,0 @@
-for i in 1 2; do
-    while read line
-    do
-        echo "读取到的行: $line"
-    done < inputfile.txt
-done
