@@ -25,10 +25,12 @@ while [ $cnt -le 5 ];do
     echo $cnt
     ((cnt++))
     done
-while read line
-do
-    echo "读取到的行: $line"
-done < inputfile.txt
+for i in 1 2; do
+    while read line
+    do
+        echo "读取到的行: $line"
+    done < inputfile.txt
+done
 
 # 打开新的 bash 终端
 gnome-terminal
